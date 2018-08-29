@@ -1,0 +1,91 @@
+body{
+	display: flex;
+	justify-content: center;
+	background:#e8e8e8;
+	font-family: 'Lato', sans-serif;
+}
+.loginHeader{
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background-color:  #17a2d4;
+	width: 500px;
+	height: 100px;
+	display: table-cell;
+	vertical-align: middle;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+.loginHeader h2{
+	letter-spacing: 1px;
+}
+.loginForm{
+	margin-top: 12%;
+	border-radius: 3px;
+	background-color:  #ffffff;
+	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
+	width: 500px;
+	height: 455px;
+}
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+	box-sizing: border-box;
+  	height: 58px;
+}
+input[type=password]{
+	margin-top: 12px!important;
+}
+.loginBtn{
+	border-radius: 3px;
+	background-color:  #17a2d4;
+	width: 100%;
+	height: 55px;
+	color:#fff;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: left;
+	border: transparent;
+	margin-top: 1%;
+	padding-left: 20px;
+	line-height: 2;
+}
+.socialMediaAndLinks{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 3%;
+}
+.fbBtn{
+	border-radius: 3px;
+	background-color:  #3b5998;
+	width: 220px;
+	height: 60px;
+	border: transparent;
+	color: #fff;
+	font-size: 15px;
+}
+.googleBtn{
+	border-radius: 3px;
+	background-color:  #d34836;
+	width: 220px;
+	height: 60px;
+	border: transparent;
+	color: #fff;
+	font-size: 15px;
+}
+.padding-15{
+	padding: 15px;
+}
+a{
+	text-decoration: none;
+	color:  #323030;
+	font-size: 16px;
+	font-weight: 400;
+}
+.arrow{
+	float: right;
+	margin-top: 1%;
+}
